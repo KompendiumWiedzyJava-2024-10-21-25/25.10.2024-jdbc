@@ -21,12 +21,17 @@ public class App {
         } else {
             System.out.println("Nie ma takiego usera !!!");
         }
+
+        //inne zmiany
+
         /*Client client = new Client(0, "Wiesiek", "Malinowski", 20, "123");
         insertUser(client);*/
         //System.out.println(getAll());
         //deleteUser(1);
 
         connection.close();
+
+        //zmiany
     }
 
     public static void connect() throws ClassNotFoundException, SQLException {
